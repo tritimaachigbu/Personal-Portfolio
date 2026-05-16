@@ -279,6 +279,7 @@ img   { display: block; width: 100%; height: auto; }
 }
 
 .image-canvas.canvas--sm { height: 320px; }
+.canvas--sm .canvas-img  { width: 240px; }
 
 .canvas-img {
   position:      absolute;
@@ -654,7 +655,7 @@ img   { display: block; width: 100%; height: auto; }
   z-index:         300;
   display:         flex;
   flex-direction:  column;
-  padding:         64px 28px 40px;
+  padding:         80px 28px 40px;
   transform:       translateX(100%);
   transition:      transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   overflow-y:      auto;
@@ -701,12 +702,15 @@ img   { display: block; width: 100%; height: auto; }
   border-radius:  100px;
   color:          var(--white);
   font-family:    var(--font-body);
-  font-size:      18px;
+  font-size:      14px;
   font-weight:    400;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   height:         50px;
   line-height:    50px;
-  width:          183px;
+  width:          280px;
+  max-width:      90vw;
+  white-space:    nowrap;
+  overflow:       hidden;
   transition:     background 0.2s, color 0.2s;
   background:     transparent;
 }
@@ -744,4 +748,9 @@ img   { display: block; width: 100%; height: auto; }
   .section-script-heading { font-size: 32px; }
   .about-bottom-photo img { max-width: 100%; }
   .footer-name    { font-size: 32px; }
+   .marquee-wrapper { margin: 24px 0 32px; }
+.service-name    { font-size: 11px; }
+.service-desc    { font-size: 13px; }
+.article-source  { font-size: 11px; }
+.article-subtitle { font-size: 12px; }
 }
