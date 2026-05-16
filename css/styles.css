@@ -1,5 +1,5 @@
 /* ============================================================
-   TRITIMA ACHIGBU — PORTFOLIO SITE
+   TRITIMA ACHIGBU â€” PORTFOLIO SITE
    ============================================================ */
 
 :root {
@@ -130,7 +130,7 @@ img   { display: block; width: 100%; height: auto; }
   width:          100%;
 }
 
-/* Desktop sidebar buttons — white fill, black outline, Lunchtype22 Light */
+/* Desktop sidebar buttons â€” white fill, black outline, Lunchtype22 Light */
 .btn-pill {
   display:        inline-block;
   text-align:     center;
@@ -148,6 +148,24 @@ img   { display: block; width: 100%; height: auto; }
 }
 .btn-pill:hover { background: var(--dark); color: var(--white); }
 
+<<<<<<< HEAD
+=======
+.sidebar-actions .btn-pill {
+  display:        block;
+  text-align:     center;
+  border:         1px solid var(--dark);
+  border-radius:  100px;
+  color:          var(--dark) !important;
+  background:     var(--white) !important;
+  font-size:      10px;
+  font-weight:    300;
+  letter-spacing: 0.08em;
+  padding:        6px 14px;
+  white-space:    nowrap;
+  width:          100%;
+}
+
+>>>>>>> 397aa2e (Fix png image paths)
 .sidebar-copyright {
   font-size:      9px;
   color:          rgba(255,255,255,0.55);
@@ -157,7 +175,7 @@ img   { display: block; width: 100%; height: auto; }
 }
 
 /* ============================================================
-   HOME — MAIN CONTENT
+   HOME â€” MAIN CONTENT
    ============================================================ */
 .content {
   flex:       1;
@@ -173,7 +191,10 @@ img   { display: block; width: 100%; height: auto; }
   text-transform:  uppercase;
   color:           var(--dark);
   margin-bottom:   52px;
+<<<<<<< HEAD
   max-width:       620px;
+=======
+>>>>>>> 397aa2e (Fix png image paths)
 }
 
 .intro-headline a {
@@ -353,7 +374,10 @@ img   { display: block; width: 100%; height: auto; }
   font-weight: 300;
   line-height: 1.75;
   color:       var(--dark);
+<<<<<<< HEAD
   max-width:   700px;
+=======
+>>>>>>> 397aa2e (Fix png image paths)
 }
 .case-desc a {
   text-decoration: underline;
@@ -362,7 +386,7 @@ img   { display: block; width: 100%; height: auto; }
 .case-desc a:hover { color: var(--orange); }
 
 /* ============================================================
-   ABOUT — MAIN CONTENT
+   ABOUT â€” MAIN CONTENT
    ============================================================ */
 .about-content {
   flex:    1;
@@ -374,15 +398,28 @@ img   { display: block; width: 100%; height: auto; }
   display:               grid;
   grid-template-columns: 1fr 1.1fr;
   gap:                   44px;
+<<<<<<< HEAD
   align-items:           start;
+=======
+  align-items:           center;
+>>>>>>> 397aa2e (Fix png image paths)
   margin-bottom:         40px;
 }
 
 .about-photo img {
+<<<<<<< HEAD
   aspect-ratio:  3 / 4;
   object-fit:    cover;
   object-position: top;
   border-radius: 0;
+=======
+  width:           100%;
+  max-height:      580px;
+  object-fit:      cover;
+  object-position: center top;
+  border-radius:   0;
+  display:         block;
+>>>>>>> 397aa2e (Fix png image paths)
 }
 
 .about-name {
@@ -656,7 +693,7 @@ img   { display: block; width: 100%; height: auto; }
   flex-direction: column;
   gap:            10px;
 }
-/* Mobile overlay buttons — large (18px, 50px tall, 183px wide) */
+/* Mobile overlay buttons â€” large (18px, 50px tall, 183px wide) */
 .btn-outline {
   display:        block;
   text-align:     center;
@@ -676,7 +713,7 @@ img   { display: block; width: 100%; height: auto; }
 .btn-outline:hover { background: var(--white); color: var(--orange); }
 
 /* ============================================================
-   RESPONSIVE — MOBILE
+   RESPONSIVE â€” MOBILE
    ============================================================ */
 @media (max-width: 768px) {
   .sidebar       { display: none; }
