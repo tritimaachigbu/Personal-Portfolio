@@ -399,6 +399,7 @@ img   { display: block; width: 100%; height: auto; }
   display:               grid;
   grid-template-columns: 1fr 1.1fr;
   gap:                   44px;
+   margin-bottom:         80px;
 <<<<<<< HEAD
   align-items:           start;
 =======
