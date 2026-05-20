@@ -442,7 +442,7 @@ img   { display: block; width: 100%; height: auto; }
 }
 
 /* ---- Marquee ---- */
-.marquee-wrapper {
+ {
   overflow:      hidden;
   border-top:    1px solid var(--dark);
   border-bottom: 1px solid var(--dark);
@@ -751,9 +751,11 @@ img   { display: block; width: 100%; height: auto; }
   }
 
   .image-canvas   { height: 280px; }
+   .canvas--biafra { height: 320px; }
+.canvas--biafra .canvas-img { width: 220px; }
   .canvas-img     { width: 140px; }
 .canvas--biafra .canvas-img { width: 220px; }
-  .about-top      { grid-template-columns: 1fr; gap: 28px; }
+  .about-top      { grid-template-columns: 1fr; gap: 28px; margin-bottom: 0px; }
   .about-name     { font-size: 36px; }
   .about-lower    { grid-template-columns: 1fr; gap: 0; }
 .about-lower > div { padding: 32px 0; border-top: 1px solid var(--border); }
