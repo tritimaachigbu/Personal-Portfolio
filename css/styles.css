@@ -442,7 +442,7 @@ img   { display: block; width: 100%; height: auto; }
 }
 
 /* ---- Marquee ---- */
- {
+.marquee-wrapper {
   overflow:      hidden;
   border-top:    1px solid var(--dark);
   border-bottom: 1px solid var(--dark);
@@ -763,7 +763,7 @@ img   { display: block; width: 100%; height: auto; }
   .section-script-heading { font-size: 32px; }
   .about-bottom-photo img { max-width: 100%; }
   .footer-name    { font-size: 32px; }
-   .marquee-wrapper { margin: 8px 0 16px; }
+   .marquee-wrapper { margin: 20px 0 24px; }
 .service-name    { font-size: 11px; }
 .service-desc    { font-size: 13px; }
 .article-source  { font-size: 11px; }
