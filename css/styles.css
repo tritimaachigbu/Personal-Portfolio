@@ -743,9 +743,9 @@ img   { display: block; width: 100%; height: auto; }
   .about-content  { padding: 28px 20px 48px; }
 
   .intro-headline { font-size: 10px; }
-.canvas--biafra .canvas-img:nth-child(1) { left: 10% !important; top: 5% !important; }
-.canvas--biafra .canvas-img:nth-child(2) { left: 10% !important; top: 35% !important; }
-.canvas--biafra .canvas-img:nth-child(3) { left: 10% !important; top: 65% !important; }
+.canvas--biafra .canvas-img:nth-child(1) { left: 5% !important; top: 2% !important; }
+.canvas--biafra .canvas-img:nth-child(2) { left: 5% !important; top: 36% !important; }
+.canvas--biafra .canvas-img:nth-child(3) { left: 5% !important; top: 68% !important; }
   .case-study-header {
     flex-direction: column;
     align-items:    flex-start;
