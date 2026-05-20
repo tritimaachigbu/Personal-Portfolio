@@ -278,8 +278,11 @@ img   { display: block; width: 100%; height: auto; }
   background-size:  22px 22px;
 }
 
-.image-canvas.canvas--sm { height: 420px; }
-.canvas--sm .canvas-img  { width: 380px; }
+.image-canvas.canvas--bolden { height: 420px; }
+.canvas--bolden .canvas-img  { width: 200px; }
+
+.image-canvas.canvas--biafra { height: 420px; }
+.canvas--biafra .canvas-img  { width: 380px; }
 
 .canvas-img {
   position:      absolute;
