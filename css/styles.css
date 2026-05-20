@@ -743,9 +743,6 @@ img   { display: block; width: 100%; height: auto; }
   .about-content  { padding: 28px 20px 48px; }
 
   .intro-headline { font-size: 10px; }
-.canvas--biafra .canvas-img:nth-child(1) { left: 5% !important; top: 2% !important; }
-.canvas--biafra .canvas-img:nth-child(2) { left: 5% !important; top: 36% !important; }
-.canvas--biafra .canvas-img:nth-child(3) { left: 5% !important; top: 68% !important; }
   .case-study-header {
     flex-direction: column;
     align-items:    flex-start;
@@ -754,8 +751,8 @@ img   { display: block; width: 100%; height: auto; }
 
  .image-canvas   { height: 280px; }
 .canvas-img     { width: 140px; }
-.canvas--biafra { height: 600px; }
-.canvas--biafra .canvas-img { width: 220px !important; }
+.canvas--biafra { height: 420px; }
+.canvas--biafra .canvas-img { width: 280px !important; }
   .about-top      { grid-template-columns: 1fr; gap: 28px; margin-bottom: 20px; }
   .about-name     { font-size: 36px; }
   .about-lower    { grid-template-columns: 1fr; gap: 0; }
