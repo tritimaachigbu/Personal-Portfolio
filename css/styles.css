@@ -278,8 +278,8 @@ img   { display: block; width: 100%; height: auto; }
   background-size:  22px 22px;
 }
 
-.image-canvas.canvas--sm { height: 320px; }
-.canvas--sm .canvas-img  { width: 380px; }
+.image-canvas.canvas--sm { height: 420px; }
+.canvas--sm .canvas-img  { width: 200px; }
 
 .canvas-img {
   position:      absolute;
