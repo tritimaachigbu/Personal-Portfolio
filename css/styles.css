@@ -752,7 +752,7 @@ img   { display: block; width: 100%; height: auto; }
 
   .image-canvas   { height: 280px; }
   .canvas-img     { width: 140px; }
-
+.canvas--biafra .canvas-img { width: 220px; }
   .about-top      { grid-template-columns: 1fr; gap: 28px; }
   .about-name     { font-size: 36px; }
   .about-lower    { grid-template-columns: 1fr; gap: 0; }
@@ -761,7 +761,7 @@ img   { display: block; width: 100%; height: auto; }
   .section-script-heading { font-size: 32px; }
   .about-bottom-photo img { max-width: 100%; }
   .footer-name    { font-size: 32px; }
-   .marquee-wrapper { margin: 24px 0 32px; }
+   .marquee-wrapper { margin: 8px 0 16px; }
 .service-name    { font-size: 11px; }
 .service-desc    { font-size: 13px; }
 .article-source  { font-size: 11px; }
