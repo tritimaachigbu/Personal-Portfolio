@@ -279,7 +279,7 @@ img   { display: block; width: 100%; height: auto; }
 }
 
 .image-canvas.canvas--sm { height: 420px; }
-.canvas--sm .canvas-img  { width: 200px; }
+.canvas--sm .canvas-img  { width: 380px; }
 
 .canvas-img {
   position:      absolute;
