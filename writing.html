@@ -10,6 +10,99 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Writing page styles — kept in this file so the page is self-contained -->
+  <style>
+    .writing-content { flex: 1; padding: 44px 52px; min-width: 0; }
+
+    .writing-title {
+      font-family:    var(--font-body);
+      font-size:      46px;
+      font-weight:    400;
+      line-height:    1.05;
+      letter-spacing: -0.01em;
+      margin:         0 0 14px;
+    }
+
+    .writing-intro {
+      font-size:     14px;
+      font-weight:   300;
+      line-height:   1.7;
+      color:         var(--muted);
+      max-width:     520px;
+      margin:        0 0 64px;
+    }
+
+    .writing-section {
+      display:               grid;
+      grid-template-columns: 200px 1fr;
+      gap:                   48px;
+      align-items:           start;
+      padding:               34px 0;
+      border-top:            1px solid var(--border);
+    }
+    .writing-section:first-of-type { border-top: none; padding-top: 0; }
+
+    .writing-label {
+      font-family:   var(--font-script);
+      font-size:     36px;
+      line-height:   0.9;
+      margin:        0;
+      padding-top:   2px;
+    }
+
+    .writing-entries { max-width: 620px; }
+
+    .writing-item {
+      display:    block;
+      padding:    0 0 26px;
+      transition: opacity 0.2s;
+    }
+    .writing-item:last-child { padding-bottom: 0; }
+    .writing-item:hover { opacity: 0.65; }
+
+    .writing-item .article-source {
+      font-size:      11px;
+      letter-spacing: 0.1em;
+      color:          var(--orange);
+      margin-bottom:  6px;
+    }
+
+    .writing-item .article-subtitle {
+      font-size:   15px;
+      font-weight: 300;
+      line-height: 1.5;
+      color:       var(--dark);
+      margin:      0;
+    }
+
+    .writing-note {
+      display:     block;
+      font-size:   12px;
+      font-weight: 300;
+      font-style:  italic;
+      line-height: 1.5;
+      color:       var(--muted);
+      margin-top:  6px;
+    }
+
+    .writing-footer { margin-top: 64px; }
+
+    @media (max-width: 768px) {
+      .writing-content { padding: 28px 20px 48px; }
+      .writing-title   { font-size: 34px; }
+      .writing-intro   { margin-bottom: 36px; font-size: 13px; }
+      .writing-section {
+        grid-template-columns: 1fr;
+        gap:                   18px;
+        padding:               26px 0;
+      }
+      .writing-label   { font-size: 30px; }
+      .writing-item    { padding-bottom: 22px; }
+      .writing-item .article-subtitle { font-size: 14px; }
+      .writing-footer  { margin-top: 40px; }
+    }
+  </style>
 </head>
 <body>
 
@@ -72,7 +165,7 @@
 
       <!-- ── Research ── -->
       <section class="writing-section">
-        <h2 class="section-script-heading writing-label">Research</h2>
+        <h2 class="writing-label">Research</h2>
         <div class="writing-entries">
 
           <a class="writing-item" href="https://rpublc.com/story/2021/02/01/history/feminism-is-for-the-people" target="_blank" rel="noopener">
@@ -91,7 +184,7 @@
 
       <!-- ── Lifestyle ── -->
       <section class="writing-section">
-        <h2 class="section-script-heading writing-label">Lifestyle</h2>
+        <h2 class="writing-label">Lifestyle</h2>
         <div class="writing-entries">
 
           <a class="writing-item" href="https://ndaane.com/blog/6-african-jewelry-brands-built-on-passion-and-care" target="_blank" rel="noopener">
@@ -109,7 +202,7 @@
 
       <!-- ── Personal Essays ── -->
       <section class="writing-section">
-        <h2 class="section-script-heading writing-label">Personal Essays</h2>
+        <h2 class="writing-label">Personal Essays</h2>
         <div class="writing-entries">
 
           <a class="writing-item" href="https://rpublc.com/story/2022/02/02/culture-and-society/returning-to-myself" target="_blank" rel="noopener">
