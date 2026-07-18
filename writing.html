@@ -15,13 +15,13 @@
   <style>
     .writing-content { flex: 1; padding: 44px 52px; min-width: 0; }
 
-    .writing-title {
-      font-family:    var(--font-body);
-      font-size:      46px;
+   .writing-title {
+      font-family:    var(--font-script);
+      font-size:      58px;
       font-weight:    400;
-      line-height:    1.05;
-      letter-spacing: -0.01em;
-      margin:         0 0 14px;
+      line-height:    1;
+      letter-spacing: 0;
+      margin:         0 0 22px;
     }
 
     .writing-intro {
@@ -29,8 +29,9 @@
       font-weight:   300;
       line-height:   1.7;
       color:         var(--muted);
-      max-width:     520px;
+      max-width:     560px;
       margin:        0 0 64px;
+      text-wrap:     balance;
     }
 
     .writing-section {
@@ -90,7 +91,7 @@
 
     @media (max-width: 768px) {
       .writing-content { padding: 28px 20px 48px; }
-      .writing-title   { font-size: 34px; }
+      .writing-title   { font-size: 42px; }
       .writing-intro   { margin-bottom: 36px; font-size: 13px; }
       .writing-section {
         grid-template-columns: 1fr;
