@@ -188,7 +188,6 @@ img   { display: block; width: 100%; height: auto; }
   text-transform:  uppercase;
   color:           var(--dark);
   margin-bottom:   52px;
-  max-width:       620px;
 }
 
 .intro-headline a {
