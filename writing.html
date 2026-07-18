@@ -15,24 +15,9 @@
   <style>
     .writing-content { flex: 1; padding: 44px 52px; min-width: 0; }
 
-    .writing-title {
-      font-family:    var(--font-body);
-      font-size:      60px;
-      font-weight:    400;
-      line-height:    1;
-      letter-spacing: 0.02em;
-      text-transform: uppercase;
-      text-align:     center;
-      margin:         0 0 20px;
-    }
-
     .writing-intro {
-      font-size:     14px;
-      font-weight:   300;
-      line-height:   1.7;
-      color:         var(--muted);
-      max-width:     none;
-      margin:        0 0 64px;
+      max-width: none;
+      margin:    0 0 64px;
     }
 
     .writing-section {
@@ -92,8 +77,7 @@
 
     @media (max-width: 768px) {
       .writing-content { padding: 28px 20px 48px; }
-      .writing-title   { font-size: 34px; }
-      .writing-intro   { margin-bottom: 36px; font-size: 13px; max-width: 100%; }
+      .writing-intro   { margin-bottom: 36px; max-width: 100%; }
       .writing-section {
         grid-template-columns: 1fr;
         gap:                   18px;
@@ -160,8 +144,7 @@
     <!-- WRITING CONTENT -->
     <main class="writing-content">
 
-      <h1 class="writing-title">Writing</h1>
-      <p class="writing-intro">
+      <p class="intro-headline writing-intro">
         Reporting, cultural criticism, and personal essays — published across The Republic, NDAANE, and elsewhere. Ongoing thoughts live in my newsletter, The Roundup.
       </p>
 
